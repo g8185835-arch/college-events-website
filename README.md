@@ -1,1 +1,1 @@
-# college-events-website
+My college event website
