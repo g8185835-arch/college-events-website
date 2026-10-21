@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Events 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a class="logo" href="#home">🎓 Campus Fest 2026</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#registration">Registration</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="tagline">✨ Celebrate • Create • Connect</span>
+                <h1>Welcome to <span>College Events 2026!</span></h1>
+                <p>
+                    Discover your talents, meet new friends and create
+                    unforgettable memories. Join us for music, technology,
+                    photography and dance!
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#events" class="btn btn-primary">Explore Events</a>
+                    <a href="#registration" class="btn btn-secondary">Register Now</a>
+                </div>
+
+                <div class="features">
+                    <div><span>🎤</span><p>Show Your Talent</p></div>
+                    <div><span>💻</span><p>Share Your Ideas</p></div>
+                    <div><span>📸</span><p>Capture Memories</p></div>
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="cartoon-circle">
+                    <div class="cartoon-students">
+                        <span class="student">👩🏻‍🎓</span>
+                        <span class="student middle-student">👨🏻‍🎓</span>
+                        <span class="student">👩🏽‍🎓</span>
+                        <span class="art-star star-one">✦</span>
+                        <span class="art-star star-two">♫</span>
+                        <span class="art-star star-three">♡</span>
+                    </div>
+                </div>
+                <p class="art-caption">Good friends, great talents, happy memories!</p>
+            </div>
+        </section>
+
+        <!-- Events -->
+        <section id="events" class="section events-section">
+            <div class="section-heading">
+                <span class="tagline">🎉 Find Your Favourite</span>
+                <h2>Our Exciting Events</h2>
+                <p>Choose your event and get ready to shine!</p>
+            </div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-art singing">🎤 <span>♫</span></div>
+                    <div class="event-info">
+                        <span class="event-label">Music & Performance</span>
+                        <h3>Singing Competition</h3>
+                        <p>Show your vocal talent and sing your favourite songs on stage.</p>
+                        <ul>
+                            <li>📅 15 November 2026</li>
+                            <li>⏰ 10:00 AM onwards</li>
+                            <li>📍 College Auditorium</li>
+                        </ul>
+                        <button class="btn btn-primary register-event"
+                                type="button" data-event="Singing Competition">
+                            Register for Singing
+                        </button>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-art coding">💻 <span>{ }</span></div>
+                    <div class="event-info">
+                        <span class="event-label">Technology & Innovation</span>
+                        <h3>Coding Contest</h3>
+                        <p>Solve exciting problems and put your programming skills to the test.</p>
+                        <ul>
+                            <li>📅 16 November 2026</li>
+                            <li>⏰ 11:00 AM onwards</li>
+                            <li>📍 Computer Lab</li>
+                        </ul>
+                        <button class="btn btn-primary register-event"
+                                type="button" data-event="Coding Contest">
+                            Register for Coding
+                        </button>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-art photography">📸 <span>✦</span></div>
+                    <div class="event-info">
+                        <span class="event-label">Art & Creativity</span>
+                        <h3>Photography Contest</h3>
+                        <p>Capture special moments and tell a story through your photographs.</p>
+                        <ul>
+                            <li>📅 17 November 2026</li>
+                            <li>⏰ 9:30 AM onwards</li>
+                            <li>📍 College Campus</li>
+                        </ul>
+                        <button class="btn btn-primary register-event"
+                                type="button" data-event="Photography Contest">
+                            Register for Photography
+                        </button>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-art dance">💃 <span>♫</span></div>
+                    <div class="event-info">
+                        <span class="event-label">Dance & Entertainment</span>
+                        <h3>Dance Competition</h3>
+                        <p>Feel the rhythm and light up the stage with your dance moves.</p>
+                        <ul>
+                            <li>📅 18 November 2026</li>
+                            <li>⏰ 2:00 PM onwards</li>
+                            <li>📍 Open-Air Stage</li>
+                        </ul>
+                        <button class="btn btn-primary register-event"
+                                type="button" data-event="Dance Competition">
+                            Register for Dance
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Registration -->
+        <section id="registration" class="section registration-section">
+            <div class="section-heading">
+                <span class="tagline">📝 Save Your Spot</span>
+                <h2>Event Registration</h2>
+                <p>Fill in your details to register for your favourite event.</p>
+            </div>
+
+            <div class="registration-container">
+                <aside class="registration-side">
+                    <div class="registration-emoji">🎓</div>
+                    <h3>Be Part of the Celebration!</h3>
+                    <p>Meet friends, discover your talent and create memories.</p>
+                    <p class="side-note">💙 Your talent belongs on our stage!</p>
+                </aside>
+
+                <form id="registrationForm" class="registration-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input id="name" name="name" type="text"
+                                   placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="college">College Name *</label>
+                            <input id="college" name="college" type="text"
+                                   placeholder="Enter your college" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="department">Department *</label>
+                            <input id="department" name="department" type="text"
+                                   placeholder="e.g. Computer Science" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Year of Study *</label>
+                            <select id="year" name="year" required>
+                                <option value="">Select your year</option>
+                                <option>1st Year</option>
+                                <option>2nd Year</option>
+                                <option>3rd Year</option>
+                                <option>4th Year</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input id="email" name="email" type="email"
+                                   placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input id="phone" name="phone" type="tel"
+                                   pattern="[0-9+\-\s()]{7,20}"
+                                   placeholder="Enter phone number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event">Choose Your Event *</label>
+                        <select id="event" name="event" required>
+                            <option value="">Select an event</option>
+                            <option>Singing Competition</option>
+                            <option>Coding Contest</option>
+                            <option>Photography Contest</option>
+                            <option>Dance Competition</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="3"
+                                  placeholder="Any questions?"></textarea>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input id="consent" name="consent" type="checkbox" required>
+                        <label for="consent">I confirm that my information is correct. *</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        Submit Registration ✨
+                    </button>
+
+                    <div id="formMessage" class="form-message"
+                         role="status" aria-live="polite"></div>
+
+                    <p class="form-note">
+                        * Required fields. This is a demo form and does not store your details.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <span class="tagline">💌 Get in Touch</span>
+                <h2>Contact Us</h2>
+                <p>Have questions? We'd be happy to help!</p>
+            </div>
+
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <div class="contact-icon">🏫</div>
+                    <h3>College Details</h3>
+                    <p><strong>College:</strong> Sankara College of Science and Commerce</p>
+                    <p><strong>Event:</strong> College Events 2026</p>
+                    <p><strong>Dates:</strong> 15–18 November 2026</p>
+                </article>
+
+                <article class="contact-card">
+                    <div class="contact-icon">👩‍🏫</div>
+                    <h3>Event Coordinator</h3>
+                    <p><strong>Name:</strong> Brindha</p>
+                    <p><strong>Email:</strong> events@example.com</p>
+                    <p><strong>Phone:</strong> +91 9876543210</p>
+                </article>
+
+                <article class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Our Location</h3>
+                    <p>SANSAC</p>
+                    <p>Saravanampatti, Tamil Nadu, India</p>
+                </article>
+            </div>
+
+            <div class="contact-banner">
+                <span>💙</span>
+                <div>
+                    <h3>Let's make this fest unforgettable!</h3>
+                    <p>We look forward to seeing you there.</p>
+                </div>
+                <a href="#registration" class="btn btn-primary">Join Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>🎓 College Events 2026</p>
+        <p>Made with 💙 by college students</p>
+        <p class="copyright">© 2026 College Events. All rights reserved.</p>
+        <a href="#home" class="back-to-top">Back to Top ↑</a>
+    </footer>
+
+</body>
+</html>
